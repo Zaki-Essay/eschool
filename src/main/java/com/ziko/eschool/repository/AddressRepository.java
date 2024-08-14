@@ -1,6 +1,6 @@
 package com.ziko.eschool.repository;
 
-import com.eazybytes.eazyschool.model.Address;
+import com.ziko.eschool.model.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

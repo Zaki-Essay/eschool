@@ -13,12 +13,12 @@ public class EazySchoolInfoContributor implements InfoContributor {
     @Override
     public void contribute(Info.Builder builder) {
         Map<String, String> eazyMap = new HashMap<String, String>();
-        eazyMap.put("App Name", "EazySchool");
-        eazyMap.put("App Description", "Eazy School Web Application for Students and Admin");
+        eazyMap.put("App Name", "ESchool");
+        eazyMap.put("App Description", "ESchool Web Application for Students and Admin");
         eazyMap.put("App Version", "1.0.0");
-        eazyMap.put("Contact Email", "info@eazyschool.com");
-        eazyMap.put("Contact Mobile", "+1(21) 673 4587");
-        builder.withDetail("eazyschool-info", eazyMap);
+        eazyMap.put("Contact Email", "info@eschool.com");
+        eazyMap.put("Contact Mobile", "+212 625 8065 59");
+        builder.withDetail("eschool-info", eazyMap);
     }
 
 }

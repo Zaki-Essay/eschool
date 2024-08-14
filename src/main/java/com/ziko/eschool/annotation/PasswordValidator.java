@@ -1,6 +1,6 @@
 package com.ziko.eschool.annotation;
 
-import com.eazybytes.eazyschool.validations.PasswordStrengthValidator;
+import com.ziko.eschool.validations.PasswordStrengthValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

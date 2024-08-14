@@ -1,7 +1,8 @@
 package com.ziko.eschool.controller;
 
-import com.eazybytes.eazyschool.model.Contact;
-import com.eazybytes.eazyschool.service.ContactService;
+
+import com.ziko.eschool.model.Contact;
+import com.ziko.eschool.service.ContactService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

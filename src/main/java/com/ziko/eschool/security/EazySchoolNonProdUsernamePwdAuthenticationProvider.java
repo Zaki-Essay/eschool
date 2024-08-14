@@ -1,8 +1,9 @@
 package com.ziko.eschool.security;
 
-import com.eazybytes.eazyschool.model.Person;
-import com.eazybytes.eazyschool.model.Roles;
-import com.eazybytes.eazyschool.repository.PersonRepository;
+
+import com.ziko.eschool.model.Person;
+import com.ziko.eschool.model.Roles;
+import com.ziko.eschool.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.security.authentication.AuthenticationProvider;

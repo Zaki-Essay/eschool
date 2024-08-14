@@ -1,6 +1,7 @@
 package com.ziko.eschool.validations;
 
-import com.eazybytes.eazyschool.annotation.PasswordValidator;
+
+import com.ziko.eschool.annotation.PasswordValidator;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

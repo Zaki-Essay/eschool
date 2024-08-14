@@ -1,8 +1,9 @@
 package com.ziko.eschool.model;
 
-import com.eazybytes.eazyschool.annotation.FieldsValueMatch;
-import com.eazybytes.eazyschool.annotation.PasswordValidator;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.ziko.eschool.annotation.FieldsValueMatch;
+import com.ziko.eschool.annotation.PasswordValidator;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

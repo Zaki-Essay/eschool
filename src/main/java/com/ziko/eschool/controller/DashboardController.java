@@ -1,7 +1,8 @@
 package com.ziko.eschool.controller;
 
-import com.eazybytes.eazyschool.model.Person;
-import com.eazybytes.eazyschool.repository.PersonRepository;
+
+import com.ziko.eschool.model.Person;
+import com.ziko.eschool.repository.PersonRepository;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

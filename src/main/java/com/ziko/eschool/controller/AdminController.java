@@ -1,9 +1,12 @@
 package com.ziko.eschool.controller;
 
-import com.eazybytes.eazyschool.model.*;
-import com.eazybytes.eazyschool.repository.CoursesRepository;
-import com.eazybytes.eazyschool.repository.EazyClassRepository;
-import com.eazybytes.eazyschool.repository.PersonRepository;
+
+import com.ziko.eschool.model.Courses;
+import com.ziko.eschool.model.EazyClass;
+import com.ziko.eschool.model.Person;
+import com.ziko.eschool.repository.CoursesRepository;
+import com.ziko.eschool.repository.EazyClassRepository;
+import com.ziko.eschool.repository.PersonRepository;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

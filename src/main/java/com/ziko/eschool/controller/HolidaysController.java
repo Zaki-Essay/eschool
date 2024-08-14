@@ -1,7 +1,8 @@
 package com.ziko.eschool.controller;
 
-import com.eazybytes.eazyschool.model.Holiday;
-import com.eazybytes.eazyschool.repository.HolidaysRepository;
+
+import com.ziko.eschool.model.Holiday;
+import com.ziko.eschool.repository.HolidaysRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,7 @@
 package com.ziko.eschool.validations;
 
-import com.eazybytes.eazyschool.annotation.FieldsValueMatch;
+
+import com.ziko.eschool.annotation.FieldsValueMatch;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.beans.BeanWrapperImpl;

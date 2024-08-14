@@ -1,6 +1,6 @@
 package com.ziko.eschool.repository;
 
-import com.eazybytes.eazyschool.model.Courses;
+import com.ziko.eschool.model.Courses;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Repository;

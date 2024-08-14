@@ -1,9 +1,10 @@
 package com.ziko.eschool.service;
 
-import com.eazybytes.eazyschool.config.EazySchoolProps;
-import com.eazybytes.eazyschool.constants.EazySchoolConstants;
-import com.eazybytes.eazyschool.model.Contact;
-import com.eazybytes.eazyschool.repository.ContactRepository;
+
+import com.ziko.eschool.config.EazySchoolProps;
+import com.ziko.eschool.constants.EazySchoolConstants;
+import com.ziko.eschool.model.Contact;
+import com.ziko.eschool.repository.ContactRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

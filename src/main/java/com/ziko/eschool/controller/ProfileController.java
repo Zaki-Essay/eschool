@@ -1,9 +1,10 @@
 package com.ziko.eschool.controller;
 
-import com.eazybytes.eazyschool.model.Address;
-import com.eazybytes.eazyschool.model.Person;
-import com.eazybytes.eazyschool.model.Profile;
-import com.eazybytes.eazyschool.repository.PersonRepository;
+
+import com.ziko.eschool.model.Address;
+import com.ziko.eschool.model.Person;
+import com.ziko.eschool.model.Profile;
+import com.ziko.eschool.repository.PersonRepository;
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;

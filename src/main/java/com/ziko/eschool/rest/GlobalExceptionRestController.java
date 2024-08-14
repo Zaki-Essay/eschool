@@ -1,7 +1,7 @@
 package com.ziko.eschool.rest;
 
 
-import com.eazybytes.eazyschool.model.Response;
+import com.ziko.eschool.model.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpHeaders;

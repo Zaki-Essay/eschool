@@ -1,9 +1,10 @@
 package com.ziko.eschool.rest;
 
-import com.eazybytes.eazyschool.constants.EazySchoolConstants;
-import com.eazybytes.eazyschool.model.Contact;
-import com.eazybytes.eazyschool.model.Response;
-import com.eazybytes.eazyschool.repository.ContactRepository;
+
+import com.ziko.eschool.constants.EazySchoolConstants;
+import com.ziko.eschool.model.Contact;
+import com.ziko.eschool.model.Response;
+import com.ziko.eschool.repository.ContactRepository;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,10 +1,11 @@
 package com.ziko.eschool.service;
 
-import com.eazybytes.eazyschool.constants.EazySchoolConstants;
-import com.eazybytes.eazyschool.model.Person;
-import com.eazybytes.eazyschool.model.Roles;
-import com.eazybytes.eazyschool.repository.PersonRepository;
-import com.eazybytes.eazyschool.repository.RolesRepository;
+
+import com.ziko.eschool.constants.EazySchoolConstants;
+import com.ziko.eschool.model.Person;
+import com.ziko.eschool.model.Roles;
+import com.ziko.eschool.repository.PersonRepository;
+import com.ziko.eschool.repository.RolesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.ziko.eschool.repository;
 
-import com.eazybytes.eazyschool.model.Holiday;
+import com.ziko.eschool.model.Holiday;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
