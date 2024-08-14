@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: eazyschool_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: eschool
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: MySQLSpring
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - eschool-network
+
+volumes:
+  db_data:
+
+networks:
+  eschool-network:
+    driver: bridge

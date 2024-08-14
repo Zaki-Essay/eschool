@@ -1,6 +1,6 @@
-create database eazyschool;
+create database eschool;
 
-use eazyschool;
+use eschool;
 
 CREATE TABLE IF NOT EXISTS `contact_msg` (
   `contact_id` int AUTO_INCREMENT  PRIMARY KEY,
